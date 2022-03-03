@@ -4,7 +4,7 @@ pnpm install
 ```
 
 ```
-SHOULD FAIL
+FAILS
 node:internal/errors:465
     ErrorCaptureStackTrace(err);
     ^
@@ -22,6 +22,6 @@ Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'find-up' imported from /Users
 }
 
 Node.js v17.6.0
-SHOULD WORK
+WORKS
 Success!
 ```
