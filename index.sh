@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-echo "SHOULD FAIL"
+echo "FAILS"
 node --experimental-specifier-resolution=node index.js
 
-echo "SHOULD WORK"
+echo "WORKS"
 node index.js
